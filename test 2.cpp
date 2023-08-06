@@ -2,32 +2,32 @@
 
 // Sum of digits
 int main () {
-	int total;
+	int Total;
 	printf("Enter a natural number: ");
-	scanf("%d", &total);
-	int sum = 0;
-	for(int i = 0; i <= total; i++){
-		sum += i;	
+	scanf("%d", &Total);
+	int Sum = 0;
+	for(int i = 0; i <= Total; i++){
+		Sum += i;	
 	}
-	printf("The sum of all natural numbers is: %d\n", sum);
+	printf("The sum of all natural numbers is: %d\n", Sum);
 	
 // Sum of odd digits	
-	int odd_totals;
+	int Odd_totals;
 	printf("Enter a natural number: ");
-	scanf("%d", &odd_totals);
-	int odd = 0;
-	for (int i = 1; i <= odd_totals; i += 2){
-			odd += i;
+	scanf("%d", &Odd_totals);
+	int Odd = 0;
+	for (int i = 1; i <= Odd_totals; i += 2){
+			Odd += i;
 	}
-	printf("Sum of odd numbers: %d \n", odd);
+	printf("Sum of odd numbers: %d \n", Odd);
 	
 // Sum of even digits
-	int totals_even;
+	int Totals_even;
 	printf("Enter a natural number: ");
-	scanf("%d", &totals_even);
-	int even = 0;
-	for (int i = 0; i <= totals_even; i += 2){
-		even += i;
+	scanf("%d", &Totals_even);
+	int Even = 0;
+	for (int i = 0; i <= Totals_even; i += 2){
+		Even += i;
 	}
-	printf("Sum of even numbers: %d \n", even);
+	printf("Sum of even numbers: %d \n", Even);
 }
