@@ -3,31 +3,31 @@
 
 // tong cac chu so
 int main () {
-	int tong;
+	int n;
 	printf("nhap so tu nhien : ");
-	scanf("%d", &tong);
+	scanf("%d", &n);
 	int sum = 0;
-	for(int i = 0; i <= tong; i++){
+	for(int i = 0; i <= n; i++){
 		sum += i;	
 	}
-	printf("tong cac so tu nhien la: %d\n", sum);
-	
+	printf("dap an la: %d\n", sum);
+
 // tong cac chu so le 	
-	int tong_le;
+	int q;
 	printf("nhap so tu nhien: ");
-	scanf("%d", &tong_le);
+	scanf("%d", &q);
 	int so_le = 0;
-	for (int i = 1; i <= tong_le; i += 2){
+	for (int i = 1; i <= n; i += 2){
 			so_le += i;
 	}
 	printf("tong so le la : %d \n", so_le);
-	
+
 //	tong cac chu so chan
-	int tong_chan;
-	printf("nhap so tu nhien : ");
-	scanf("%d", &tong_chan);
+	int h;
+	printf("nhap so tu nhien :");
+	scanf("%d", &h);
 	int so_chan = 0;
-	for (int i = 0; i <= tong_chan; i += 2){
+	for (int i = 0; i <= n; i += 2){
 		so_chan += i;
 	}
 	printf("tong cac so chan la : %d \n", so_chan);
