@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+//Check a number if it is prime or not
 int main() {
 	int integer;
 	printf("Enter a natural number: ");
@@ -8,13 +8,13 @@ int main() {
 	if(integer < 2) {
 		printf("Number %d is not prime", integer);
 	} else {
-		int sum = 0;
+		int wish = 0;
 		for(int i = 1; i <= integer; i++) {
 			if(integer % i == 0) {
-				sum += 1;
+				wish += 1;
 			}
 		}
-		if(sum == 2) {
+		if(wish == 2) {
 			printf("Number %d is a prime", integer);
 		} else {
 			printf("Number %d is not prime", integer);
