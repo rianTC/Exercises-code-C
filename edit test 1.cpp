@@ -27,7 +27,7 @@ int main () {
 	scanf("%d", &totals_even);
 	int even = 0;
 	for (int i = 0; i <= totals_even; i += 2){
-		Even += i;
+		even += i;
 	}
 	printf("Sum of even numbers: %d \n", even);
 }
